@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <title>API Projects</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light ">
+        <a class="navbar-brand text-white" href="#">
+            <img src="assets/header_logo.png" alt="" width="70" height="40" class="d-inline-block align-text-top">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <strong class="text-white">Covid<br>Tracking</strong>
+                </li>
+                <li>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </li>
+                <li class="text-white" ><strong>Confirmed</strong> <p class="text-white" id="confirmed"></p></li>
+               <li>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </li>
+                <li class="text-white"><strong>Recovered</strong> <p class="text-white" id="recovered"></p></li>
+                <li>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </li>
+                <li class="text-white"><strong>Deceased</strong> <p class="text-white" id="decesead"></p></li>
+            </ul>
+            <span class="navbar-text">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active pt-4">
+                        <img id="countryImg" src="" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    </li>
+                    <li>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    </li>
+                    <li>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="#"><strong> Capital</strong></a>
+                        <div id="capital">loading..</div>
+                    </li>
+                    <li>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    </li>
+                    <li>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="#"><strong> Population</strong></a>
+                        <p id="population">loading..</p>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </nav>
+
+    <main class="text-center p-5">
+
+
+        <h3 class="text-center mb-4">
+            Best Jokes to make your day
+        </h3>
+
+
+        <img src='assets/jokes.png' class="mb-5" width="10%">
+
+        <div class="card m-auto" style="width: 50%; text-align: center; box-shadow: #fbf8f8 5px 6px 11px 10px">
+            <div class="card-body" id="joke" class="text-15">
+                <p> Best Jokes to make your day </p>
+            </div>
+        </div>
+
+        <button class="btn btn-success mt-4" id="jokeBtn">Next</button>
+
+
+    </main>
+
+
+    <script src="assets/app.js"></script>
+
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3 text-white">Design And Developed BY
+            <a class="pr-4" href="https://github.com/SandeepGupta07" > Sandeep Kumar</a>
+        </div>
+    </footer>
+</body>
+
+</html>
